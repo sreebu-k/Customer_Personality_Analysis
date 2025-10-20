@@ -10,12 +10,8 @@ Removed duplicate rows to ensure data quality.
 
 Standardized column names to UPPERCASE_WITH_UNDERSCORES.
 
-Converted columns to appropriate data types:
+Converted columns to appropriate data types (year_birth → integer, income → float).
 
-YEAR_BIRTH → integer
-
-INCOME → float
-
-Converted DT_CUSTOMER to datetime format with dayfirst=True, then formatted as d/m/YYYY for consistency:
+Converted DT_CUSTOMER to datetime format:
 
 Saved the cleaned dataset as cleaned_marketing_campaign.csv for further analysis.
